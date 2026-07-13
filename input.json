@@ -1,0 +1,33 @@
+{
+  "input_variables": {
+    "page_id": {
+      "id": "page_id",
+      "variable_name": "page_id",
+      "display_name": "Page ID",
+      "description": "The Notion page to append the to-do item to. Must be shared with the integration.",
+      "value": null,
+      "type": "str",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    },
+    "task": {
+      "id": "task",
+      "variable_name": "task",
+      "display_name": "Task",
+      "description": "The text of the to-do item.",
+      "value": null,
+      "type": "str",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    }
+  },
+  "config_variables": {}
+}

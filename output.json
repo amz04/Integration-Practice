@@ -1,0 +1,32 @@
+{
+  "output_variables": {
+    "object": {
+      "id": "object",
+      "variable_name": "object",
+      "display_name": "Object",
+      "description": "The Notion object type returned by the append call (always \"list\").",
+      "value": null,
+      "type": "str",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    },
+    "results": {
+      "id": "results",
+      "variable_name": "results",
+      "display_name": "Results",
+      "description": "The block objects that were created — the new to-do item.",
+      "value": null,
+      "type": "array",
+      "is_nullable": false,
+      "tags": [],
+      "options": [],
+      "type_definition": null,
+      "type_definition_enforced": true,
+      "mapping": null
+    }
+  }
+}
