@@ -31,7 +31,13 @@ pip install requests
 python test.py
 ```
 
-`test.py` mocks the platform's injected scope, executes `notionArbCode.py` unmodified, and prints the returned `result`. On success a fresh ☐ item appears at the bottom of the page.
+`test.py` mocks the platform's injected scope, executes `notionArbCode.py` unmodified, and prints the returned `result`:
+
+![Running test.py](images/test_output.png)
+
+`success: True`, and the returned block is the `to_do` that was created. It shows up at the bottom of the Notion page as a checkable item:
+
+![The task in Notion](images/notion_result.png)
 
 ## Wiring it into the service
 
